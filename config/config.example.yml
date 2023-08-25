@@ -160,6 +160,17 @@ https_only: false
 ##
 #force_resolve:
 
+##
+## Configuration for using a HTTP proxy
+##
+## If unset, then no HTTP proxy will be used.
+##
+http_proxy:
+  user:
+  password:
+  host:
+  port:
+
 
 ##
 ## Use Innertube's transcripts API instead of timedtext for closed captions
@@ -812,7 +823,7 @@ default_user_preferences:
   ## Default: true
   ##
   #vr_mode: true
-  
+
   ##
   ## Save the playback position
   ## Allow to continue watching at the previous position when
